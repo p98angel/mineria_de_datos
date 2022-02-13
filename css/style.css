@@ -1,0 +1,83 @@
+.banner{
+  width: 100vw;
+  height:100vh;
+  background-image: url('../img/banner.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -9px 0px 0px -9px;
+}
+
+.banner_text{
+  width: 50vw;
+  padding: 18px;
+  margin-top: 50vh;
+  margin-left: 50vw;
+  text-align: center;
+  color: var(--color-primario-black);
+  font-family: var(--fuente-indie);
+  font-size: var(--tamano-banner-contenido);
+}
+
+.banner_text h2{
+  font-size: var(--tamano-banner-titulo);
+}
+
+
+.seccion{
+  width: 100%;
+  overflow: hidden;
+  margin: auto;
+  text-align: center;
+}
+
+.header_article {
+  text-align: center;
+}
+.header_article h2, h3{
+  font-family: var(--fuente-indie);
+  padding: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: var(--tamano-articulos-titulo);
+}
+h3 {
+  font-size: calc((var(--tamano-articulo-titulo ) + var(--tamano-articulo-contenido)) / 2 ) rem;
+}
+.tablas {
+  width: 50% !important;
+  margin: auto;
+}
+
+.body_tema{
+  margin: 20px 20%;
+  text-align: justify !important;
+  font-size: var(--tamano-articulo-contenido) !important;
+  font-family: var(--fuente-ubuntu);
+
+}
+
+.article_img{
+  width: 100vw !important;
+  height: 450px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.article_img h2{
+  display: flex;
+  height: inherit;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--fuente-indie);
+  font-weight: bold;
+  font-size: var(--tamano-banner-titulo);
+}
+
+.img_introducion{  background-image: url(../img/estadistica.jpg); }
+.img_introducion h2::before{ color: var(--color-primario-white); content: "Inferencia estadística";}

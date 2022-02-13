@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- estilos desarrollador -->
+    <link rel="stylesheet" href="css/_config.css">
+    <link rel="stylesheet" href="css/_menu.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- librerias externas -->
+    <!-- uso de iconos -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <!-- funciones adicionales -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <!-- animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- graficas -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    
+
+    <meta name="Autor" content="Angel Parada García">
+    <title>Inferencia estadística & distribución de frecuencias</title>
+</head>
+<body>
+    <header>
+        <span class="material-icons-outlined" id="toogle_menu"></span>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#introduccion">Introduccion</a></li>
+                <li><a href="#inferencia_estadistica">Inferencia estadística</a></li>
+                <li><a href="#">link 3</a></li>
+                <li><a href="#">link 4</a></li>
+                <li><a href="#">link 5</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="banner">
+        <div class="banner_text">
+            <h2>Inferencia estadística & distribución de frecuencias</h2>
+            <p>
+                integrantes: Parada García Angel
+            </p>
+        </div>
+    </section> 
+    <section class="seccion">
+        <article id="introduccion">
+            <header class="header_article">
+                <h2>Introducción</h2>
+            </header>
+            <p class="body_article">
+                <canvas id="g_presentacion" class="tablas"></canvas>
+                <p class="body_tema">
+                    Es el conjunto de métodos y técnicas que permiten inducir, a partir de la información empírica proporcionada por una muestra,
+                    cual es el comportamiento de una determinada población con un riesgo de error medible en términos de probabilidad
+                    La distribución de frecuencias agrupadas o tabla con datos agrupados se emplea si las variables toman un número
+                    grande de valores o la variable es continua.
+                </p>
+                
+            </p>
+        </article>
+        <article class="article_img img_introducion" id="inferencia_estadistica"> <h2></h2> </article>
+        <article>
+            <header class="header_article">
+                <h2>¿Qué es?</h2>
+            </header>
+            <p class="body_tema">
+                La inferencia estadística es el proceso de utilizar el análisis de datos para sacar conclusiones sobre
+                una población o proceso más allá de los datos existentes. El análisis estadístico inferencial infiere
+                propiedades de una población al probar hipótesis y derivar estimaciones.
+            </p>
+        </article>
+        <article>
+            <header class="header_article">
+                <h2>Conceptos</h2>
+            </header>
+            <p class="body_tema">
+                <b>Muestra:</b> Un subconjunto cualquiera de la población. Para que la muestra nos sirva para extraer 
+                conclusiones sobre la población, debe ser representativa , lo que se consigue seleccionando sus
+                elementos al azar , lo que da lugar a una muestra aleatoria.
+            </p>
+        </article>
+        <canvas id="g_muestreo" class="tablas"></canvas>
+        
+    </section>
+    
+    <script src="js/functions.js"></script>
+    <script src="js/graphics.js"></script>
+</body>
+</html>
