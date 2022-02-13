@@ -17,7 +17,7 @@ html {
 /* colores, fuentes*/
 :root {
   --color-primario-panteon: #B91116;
-  --color-primario-panteon-blur: rgba(187, 17, 23, .7);
+  --color-primario-panteon-blur: rgba(187, 17, 23, 0.479);
   --color-primario-panteon-Orange-021-c: #E24622;
   --color-primario-black: #000;
   --color-primario-white: #fff;

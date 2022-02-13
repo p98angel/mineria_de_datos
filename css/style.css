@@ -79,9 +79,11 @@ h3 {
   font-size: var(--tamano-banner-titulo);
 }
 
-.img_introducion{  background-image: url(../img/estadistica.jpg); }
-.img_introducion h2::before{ color: var(--color-primario-white); content: "Inferencia estadística";}
+.img_inferencia_estadística{  background-image: url(../img/estadistica.jpg); }
+.img_inferencia_estadística h2::before{ color: var(--color-primario-white); content: "Inferencia estadística";}
 
+.img_img_distribucion{  background-image: url(../img/Distribucion-de-frecuencias.jpg); }
+.img_img_distribucion h2::before{ color: var(--color-primario-white); content: "Distribucion de Frecuencias";}
 
 #g-muestreo-persona{
   width: 80vh;
