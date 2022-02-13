@@ -19,10 +19,10 @@ function tbody (_id, _type, _labels, _label_max, _data, _colors, _hover_off) {
 let _id = 'g_presentacion';
 // bar, bubble, doughnut, pie, line, polarArea
 let _type = 'doughnut' ;
-let _labels = ['Femenino', 'Masculino', 'Valmiki (.).l.(.)'];
+let _labels = ['Femenino', 'Masculino'];
 let _label_max = 'Sexo';
-let _data = [50, 49, 1];
-let _colors = ['pink', 'blue', 'purple'];
+let _data = [75, 25];
+let _colors = ['pink', 'blue'];
 let _hover_off = 3;
 // change only
 tbody(_id, _type, _labels, _label_max, _data, _colors, _hover_off);

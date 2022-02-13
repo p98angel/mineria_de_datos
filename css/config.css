@@ -21,8 +21,6 @@ html {
   --color-primario-panteon-Orange-021-c: #E24622;
   --color-primario-black: #000;
   --color-primario-white: #fff;
-  --color-mamalon-de-uaeh: #9D9D9C;
-  --color-mamalon-de-uaeh-x2: #511013;
   --fuente-indie: 'Indie Flower', cursive;
   --fuente-lobster: 'Lobster', cursive;
   --fuente-shadows: 'Shadows Into Light', cursive;
@@ -31,4 +29,6 @@ html {
   --tamano-banner-contenido: 2rem;
   --tamano-articulos-titulo: 2.5rem;
   --tamano-articulos-contenido: 2rem;
+  --color-mamalon-de-uaeh: #9D9D9C;
+  --color-mamalon-de-uaeh-x2: #511013;
 }
