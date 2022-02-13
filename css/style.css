@@ -81,3 +81,8 @@ h3 {
 
 .img_introducion{  background-image: url(../img/estadistica.jpg); }
 .img_introducion h2::before{ color: var(--color-primario-white); content: "Inferencia estadística";}
+
+
+#g-muestreo-persona{
+  width: 80vh;
+}

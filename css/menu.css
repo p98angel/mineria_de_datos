@@ -5,7 +5,7 @@
   right: 0;
   font-size: 30px;
   color: var(--color-primario-white);
-  background-color: var(--color-primario-panteon);
+  background-color: var(--color-primario-panteon-blur);
   /* radio en el borde y distancia desde la caja */
   border-bottom-left-radius: 100%;
   padding: 16px;
