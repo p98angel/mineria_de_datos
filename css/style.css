@@ -1,7 +1,7 @@
 .banner{
   width: 100vw;
   height:100vh;
-  background-image: url('../img/coffe.png');
+  background-image: url('../img/banner.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -18,7 +18,7 @@
   margin-top: 50vh;
   margin-left: 50vw;
   text-align: center;
-  color: var(--color-primario-white);
+  color: var(--color-primario-black);
   font-family: var(--fuente-indie);
   font-size: var(--tamano-banner-contenido);
 }

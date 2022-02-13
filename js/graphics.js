@@ -32,10 +32,10 @@ tbody(_id, _type, _labels, _label_max, _data, _colors, _hover_off);
 _id = 'g_muestreo';
 // bar, bubble, doughnut, pie, line, polarArea
 _type = 'polarArea' ;
-_labels = ['Azul', 'Naranja', 'Rosa', 'Verde', 'Gris'];
+_labels = ['Azul', 'Naranja', 'Rosa', 'Verde', 'Gris', 'Rojo', 'Negro', 'Marron', 'Morado'];
 _label_max = 'Sexo';
-_data = [120, 130, 180,250, 150];
-_colors = ['blue', 'orange', 'pink', 'green', 'gray'];
+_data = [100, 150, 200,250, 300, 350, 400, 450, 500];
+_colors = ['blue', 'orange', 'pink', 'green', 'gray', 'red', 'black', 'brown', 'purple'];
 _hover_off = 3;
 // change only
 tbody(_id, _type, _labels, _label_max, _data, _colors, _hover_off);

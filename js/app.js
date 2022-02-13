@@ -15,6 +15,9 @@ $(document).ready(function () {
 
     $('#toogle_menu').click(menu);
     $('#navbar a').click(menu);
+    $('#nav_introduccion').click(function (e) { location.href =  '#introduccion';});
+    $('#nav_inferencia_estadistica').click(function (e) { location.href =  '#inferencia_estadistica';});
+    $('.r').load('../pages/0.html');
 });
 AOS.init({
     duration: 1000,
